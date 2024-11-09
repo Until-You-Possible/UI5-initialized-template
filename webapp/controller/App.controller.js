@@ -5,7 +5,7 @@ sap.ui.define([
 ], (Device, Controller) => {
 	"use strict";
 
-	return Controller.extend("sap.ui.demo.todo.controller.App", {
+	return Controller.extend("sap.ui.application.system.controller.App", {
 
 		onInit() {
 		},

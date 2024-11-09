@@ -1,7 +1,7 @@
 {
 	"_version": "1.61.0",
 	"sap.app": {
-		"id": "sap.ui.demo.todo",
+		"id": "sap.ui.application.system",
 		"type": "application",
 		"title": "",
 		"applicationVersion": {
@@ -18,7 +18,7 @@
 			}
 		},
 		"rootView": {
-			"viewName": "sap.ui.demo.todo.view.App",
+			"viewName": "sap.ui.application.system.view.App",
 			"type": "XML",
 			"id": "app"
 		},
@@ -26,13 +26,9 @@
 			"i18n": {
 				"type": "sap.ui.model.resource.ResourceModel",
 				"settings": {
-					"bundleName": "sap.ui.demo.todo.i18n.i18n",
+					"bundleName": "sap.ui.application.system.i18n.i18n",
 					"async": true
 				}
-			},
-			"": {
-				"type": "sap.ui.model.json.JSONModel",
-				"uri": "model/todoitems.json"
 			}
 		},
 		"resources": {

@@ -1,6 +1,6 @@
 <mvc:View xmlns:mvc="sap.ui.core.mvc"
 		  xmlns:core="sap.ui.core" xmlns="sap.m" xmlns:f="sap.f"
-		  controllerName="sap.ui.demo.todo.controller.App" displayBlock="true">
+		  controllerName="sap.ui.application.system.controller.App" displayBlock="true">
 	<App>
 		<Button text="initialized page"/>
 	</App>
