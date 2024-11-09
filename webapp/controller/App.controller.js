@@ -9,6 +9,10 @@ sap.ui.define([
 
 		onInit() {
 		},
+		goToDetail() {
+			console.log("goToDetail");
+			this.getOwnerComponent().getRouter().navTo("detail");
+		}
 	});
 
 });

@@ -22,6 +22,38 @@
 			"type": "XML",
 			"id": "app"
 		},
+		"routing": {
+			"config": {
+				"routerClass": "sap.m.routing.Router",
+				"viewType": "XML",
+				"viewPath": "sap.ui.application.system.view",
+				"controlId": "app",
+				"controlAggregation": "pages",
+				"async": true
+			},
+			"routes": [
+				{
+					"pattern": "",
+					"name": "detail",
+					"target": "Detail"
+				},
+				{
+					"pattern": "store",
+					"name": "store",
+					"target": "Store"
+				}
+			],
+			"targets": {
+				"Detail": {
+					"viewName": "Detail",
+					"viewLevel": 1
+				},
+				"Store": {
+					"viewName": "Store",
+					"viewLevel": 2
+				}
+			}
+		},
 		"models": {
 			"i18n": {
 				"type": "sap.ui.model.resource.ResourceModel",

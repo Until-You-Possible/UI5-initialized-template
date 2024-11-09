@@ -1,0 +1,6 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns:core="sap.ui.core" xmlns="sap.m" xmlns:f="sap.f"
+          controllerName="sap.ui.application.system.controller.Store" displayBlock="true">
+    <Page>
+        <Button text="Store page"/>
+    </Page>
+</mvc:View>
