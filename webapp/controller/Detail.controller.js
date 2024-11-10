@@ -6,7 +6,6 @@ sap.ui.define([
     "use strict";
 
     return Controller.extend("sap.ui.application.system.controller.Detail", {
-
         onInit() {
         },
         goToStorePage() {

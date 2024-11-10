@@ -1,0 +1,11 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns:core="sap.ui.core" xmlns="sap.m" xmlns:f="sap.f"
+          controllerName="sap.ui.application.system.controller.NotFound" displayBlock="true">
+    <IllustratedMessage
+            id="im"
+            title="{i18n>NotFoundTitle}"
+            description="{i18n>NotFoundDescription}"
+            illustrationSize="{illustrationModel>/illustrationSize}"
+            illustrationType="{illustrationModel>/illustrationType}"
+            enableVerticalResponsiveness="true">
+    </IllustratedMessage>
+</mvc:View>

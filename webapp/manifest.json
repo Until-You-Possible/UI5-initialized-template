@@ -29,7 +29,10 @@
 				"viewPath": "sap.ui.application.system.view",
 				"controlId": "app",
 				"controlAggregation": "pages",
-				"async": true
+				"async": true,
+				"bypassed": {
+					"target": "NotFound"
+				}
 			},
 			"routes": [
 				{
@@ -41,6 +44,11 @@
 					"pattern": "store",
 					"name": "store",
 					"target": "Store"
+				},
+				{
+					"pattern": "*",
+					"name": "notFound",
+					"target": "NotFound"
 				}
 			],
 			"targets": {
@@ -51,6 +59,10 @@
 				"Store": {
 					"viewName": "Store",
 					"viewLevel": 2
+				},
+				"NotFound": {
+					"viewName": "NotFound",
+					"viewLevel": 3
 				}
 			}
 		},

@@ -1,6 +1,31 @@
 <mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns:core="sap.ui.core" xmlns="sap.m" xmlns:f="sap.f"
           controllerName="sap.ui.application.system.controller.Detail" displayBlock="true">
-    <Page>
-        <Button press="goToStorePage" text="Detail page"/>
+
+    <Page
+            title="Page"
+            class="sapUiContentPadding" >
+        <customHeader>
+            <Toolbar>
+                <Button type="Back" press="onPress" />
+                <ToolbarSpacer/>
+                <Title text="search svg" level="H2"/>
+                <ToolbarSpacer/>
+                <Button icon="sap-icon://edit" type="Transparent" press="onPress" ariaLabelledBy="editButtonLabel"/>
+            </Toolbar>
+
+        </customHeader>
+        <content>
+            <HBox>
+                <Text text="内容区域" />
+            </HBox>
+        </content>
+<!--        <footer>-->
+<!--            <Toolbar>-->
+<!--                <ToolbarSpacer/>-->
+<!--                <Button type="Emphasized" text="Emphasized" press="onPress" />-->
+<!--                <Button text="Default" press="onPress" />-->
+<!--                <Button icon="sap-icon://action" type="Transparent" press="onPress" />-->
+<!--            </Toolbar>-->
+<!--        </footer>-->
     </Page>
 </mvc:View>

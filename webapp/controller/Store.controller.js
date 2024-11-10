@@ -4,9 +4,7 @@ sap.ui.define([
     "sap/base/strings/formatMessage"
 ], (Device, Controller) => {
     "use strict";
-
     return Controller.extend("sap.ui.application.system.controller.Store", {
-
         onInit() {
         },
     });
